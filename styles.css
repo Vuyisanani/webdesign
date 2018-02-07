@@ -42,11 +42,28 @@ li{
 .list li{
     border-bottom: 1px solid #aaaaaa;
     border-bottom-width: 50%;
-    margin: 20px 0 40px 0;
+    margin: 30px 0 40px 0;
 }
 p{
     margin: 0;
     padding: 0 0 0 90px;
     position: inline;
 
+}
+
+button{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    flex-direction: column;
+    padding-right: 0;
+    margin: 10px auto;
+}
+
+.myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
 }
