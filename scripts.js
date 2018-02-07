@@ -9,27 +9,7 @@ var button = document.querySelector('.targetClassName');
 
 button.addEventListener('click', function(e) {
 
-  
-});
 
-
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "flex";
-    } else {
-        x.style.display = "none";
-    }
-    
-    var flexi-container = document.getElementById("flexi-container"),
-    button = document.getElementById("flexi-container");
-    if (flexi-container.style.display === "none"){
-        flexi-container.style.display = "flex";
-        flexi-container.value = "HIDE CONTENT";
-    } else {
-        flexi-container.style.display = "none";
-        button.value = "SHOW CONTENT";
-    }
     */
     
     function myFunction() {

@@ -6,13 +6,14 @@ Use any styles of your choosing, the solution should support the latest browsers
 .address{
     color: grey;
     font-size: 16px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 10px;
+    padding-top: 10px;
    
+    
 }
-
 body{
     background-color: deepskyblue;
+    font-family: 'Roboto', sans-serif;
 }
 img{
     float: left;
@@ -31,9 +32,9 @@ img{
      
 }
   .text1 {
-    font-size: 24px;
-    display: inline;
-    padding-left: 20px; 
+    font-size: 20px;
+    
+    padding-bottom: 20px;
     
   }
 li{
@@ -43,6 +44,11 @@ li{
     border-bottom: 1px solid #aaaaaa;
     border-bottom-width: 50%;
     margin: 30px 0 40px 0;
+    margin-right: 40px;
+    
+}
+.list li:last-child {
+    border: none;
 }
 p{
     margin: 0;
