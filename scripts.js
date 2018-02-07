@@ -16,7 +16,7 @@ button.addEventListener('click', function(e) {
 function myFunction() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
-        x.style.display = "none";
+        x.style.display = "flex";
     } else {
-        x.style.display = "block";
+        x.style.display = "none";
     }

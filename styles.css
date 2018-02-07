@@ -10,46 +10,43 @@ Use any styles of your choosing, the solution should support the latest browsers
     
    
 }
-.content{
-    max-width: 800px;
-    margin: 16px auto;
-    height: 120px;
-    width: 400px;
-}
-.content img {
-    margin-right: 10px;
-    float: left;
-    position: center;
-}
 
 body{
-    max-width: 500px;
     background-color: deepskyblue;
 }
 img{
     float: left;
     border-radius: 50%;
+    width: 23%;
+    position: inline;
      
 }
 .flexi-container{
     display: flex;
     background-color: white;
-    justify-content: center;
+    width: 380px;
     flex-direction: column;
-    padding: 0 0 80px 0px;
-    margin: 0 0 80px 0px;
-    
-   
+    padding-right: 0;
+    margin: 30px auto;
+     
 }
-.img-valign {
-    vertical-align: middle;
-    margin-bottom: 0.75em;
-  }
-  
   .text1 {
     font-size: 24px;
-    display: float;
-    padding: 8px;
-   
+    display: inline;
+    padding-left: 20px; 
+    
   }
- 
+li{
+    list-style-type: none;
+}
+.list li{
+    border-bottom: 1px solid #aaaaaa;
+    border-bottom-width: 50%;
+    margin: 20px 0 40px 0;
+}
+p{
+    margin: 0;
+    padding: 0 0 0 90px;
+    position: inline;
+
+}
