@@ -1,0 +1,58 @@
+/*
+Your styles should go in here.
+Use any styles of your choosing, the solution should support the latest browsers -1.
+*/
+
+.address{
+    color: grey;
+    font-size: 16px;
+    padding-bottom: 20px;
+    
+   
+}
+.content{
+    max-width: 800px;
+    margin: 16px auto;
+    height: 120px;
+    width: 400px;
+}
+.content img {
+    margin-right: 10px;
+    float: left;
+    position: center;
+}
+
+body{
+    max-width: 500px;
+    background-color: deepskyblue;
+}
+img{
+    float: left;
+    border-radius: 50%;
+     
+}
+.flexi-container{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 80px 0px;
+    margin: 0 0 80px 0px;
+    
+   
+}
+.img-valign {
+    vertical-align: middle;
+    margin-bottom: 0.75em;
+  }
+  
+  .text1 {
+    font-size: 24px;
+    display: float;
+    padding: 8px;
+   
+  }
+  
+  .text2 {
+    font-size: 24px;
+  }
